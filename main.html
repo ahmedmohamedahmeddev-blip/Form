@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form">
+        <h2>Login</h2>
+        <div id ="error"></div>
+        <form onsubmit="return login()" novalidate >
+            <input type="text" placeholder="enter mame" id="name">
+            <input type="email" placeholder="enter email" id="email">
+            <input type="text" placeholder="enter phone" id="phone">
+            <input type="password" placeholder="enter password" id="password">
+            <input type="password" placeholder="enter confirm password" id="password2">
+            <input id="btn" type="submit">
+        </form>
+        
+    </div>
+
+<script src="./main.js"></script>
+</body>
+
+</html>
